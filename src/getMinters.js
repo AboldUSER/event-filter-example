@@ -8,7 +8,7 @@ const run = async () => {
     const minters = []
     const abi = JSON.parse(fs.readFileSync("src/erc721.json"));
 
-    const contractCreationBlock = 24155383; // I looked this up on PolyScan - it is the block number that the contract was deployed. Having this just making filtering quicker.
+    const contractCreationBlock = 24155383; // I looked this up on a blockchain scanner - it is the block number that the contract was deployed. Having this just making filtering quicker.
     const contractAddress = process.env.CONTRACT_ADDRESS;
     const alchemyProviderURL = `wss://polygon-mainnet.g.alchemy.com/v2/${process.env.ALCHEMY_API_KEY}`
 
