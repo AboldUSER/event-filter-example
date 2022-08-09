@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "getMinters": "node src/getMinters.js",
-    "getOwners": "node src/getMinters.js"
+    "getOwners": "node src/getOwners.js"
   },
   "license": "ISC",
   "dependencies": {
