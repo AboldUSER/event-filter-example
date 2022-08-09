@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "getMinters": "node src/getMinters.js"
+    "getMinters": "node src/getMinters.js",
+    "getOwners": "node src/getMinters.js"
   },
   "license": "ISC",
   "dependencies": {
